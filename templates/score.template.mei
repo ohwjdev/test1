@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <!-- MEI template -->
+
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>{{TITLE}}</title>
+        <respStmt>
+          <persName role="composer">{{COMPOSER}}</persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <availability>
+          <useRestrict>{{LICENSE}}</useRestrict>
+        </availability>
+      </pubStmt>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="1">
+          <name>Let's Encode!</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n="1" lines="5" clef.shape="G" clef.line="2"
+                        meter.count="4" meter.unit="4"/>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="1">
+              <staff n="1">
+                <layer n="1">
+                  <note dur="1" oct="4" pname="c"/>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

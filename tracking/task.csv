@@ -1,1 +1,9 @@
 task_id,subtask_id,fragment,locator,allowlist,blocklist,depends_on
+P0001,,sources/piece-01/score.mei,score-setup,,,
+P0001,S0001,sources/piece-01/score.mei,score-setup,,,
+P0002,,sources/piece-01/score.mei,measure-zones,,,P0001
+P0002,S0001,sources/piece-01/score.mei,measure-zones,,,
+T0001,,sources/piece-01/score.mei,surface-1,,,P0002
+T0001,S0001,sources/piece-01/score.mei,surface-1,,,
+T0002,,sources/piece-01/score.mei,surface-2,,,P0002
+T0002,S0001,sources/piece-01/score.mei,surface-2,,,

@@ -1,2 +1,3 @@
 timestamp,task_id,subtask_id,user_id,action,outcome,detail,command,version,input
 2026-08-24T11:41:40.740Z,P0001,,38179254,claim_encoding,accepted,,campaign.claimTask,1,"{""task_id"":""P0001""}"
+2026-08-24T13:09:51.689Z,P0001,,38179254,submit_encoding,accepted,,campaign.submitScoreSetup,1,"{""task_id"":""P0001"",""staves"":3,""groups"":1,""keysig"":""0"",""meter"":""common""}"

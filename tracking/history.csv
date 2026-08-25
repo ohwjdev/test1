@@ -9,3 +9,4 @@ timestamp,task_id,subtask_id,user_id,action,outcome,detail,command,version,input
 2026-08-25T10:03:08.615Z,P0002,S0001,38179254,claim_validation,accepted,,campaign.claimValidation,1,"{""task_id"":""P0002"",""subtask_id"":""S0001""}"
 2026-08-25T10:04:00.926Z,P0002,S0001,38179254,submit_validation,accepted,pass,campaign.submitValidation,2,"{""task_id"":""P0002"",""subtask_id"":""S0001"",""verdict"":""pass""}"
 2026-08-25T10:38:31.886Z,T0001,,38179254,claim_encoding,accepted,,campaign.openEditor,1,"{""task_id"":""T0001""}"
+2026-08-25T10:52:57.229Z,T0001,,38179254,submit_encoding,accepted,,campaign.submitEncoding,1,"{""task_id"":""T0001""}"
